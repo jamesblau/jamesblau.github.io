@@ -1,41 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
-paginate: 1
-baseurl: ""
-permalink: pretty
+title:               A Blog
+tagline:             It Is a Blog
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             "http://jamesblau.github.io/poole/"
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir: _sass
-  style: :compressed
+  sass_dir:          _sass
+  style:            :compressed
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
+# About/contact
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name:              James Blau
+  email:             jamesblau@gmail.com
 
 # Custom vars
-version: 3.0.0
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
